@@ -30,3 +30,6 @@ bower_components
 
 # Node-Webkit stuff
 #locales
+
+# Game
+app/vendor
