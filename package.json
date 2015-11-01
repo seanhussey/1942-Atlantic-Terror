@@ -2,7 +2,7 @@
   "name": "1942-Great-War",
   "version": "1.0.0",
   "description": "A war game taking place on board a German U-boat. You're job is to manage communications with the German army, sending and recieving messages.",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/HermannBjorgvin/1942-Great-War",
   "dependencies": {
-    "grunt-sass": "^1.1.0"
+    "grunt": "^0.4.5",
+    "grunt-bowercopy": "^1.2.3",
+    "grunt-contrib-uglify": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^1.1.0",
+    "node-bourbon": "^4.2.3",
+    "node-neat": "^1.7.2"
   }
 }
