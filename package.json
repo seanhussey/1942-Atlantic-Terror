@@ -15,6 +15,15 @@
   "bugs": {
     "url": "https://github.com/HermannBjorgvin/1942-Great-War/issues"
   },
+  "window": {
+    "title": "1942 Atlantic Terror",
+    "icon": "icon.png",
+    "toolbar": true,
+    "frame": true,
+    "fullscreen": false,
+    "width": 1600,
+    "height": 900
+  },
   "homepage": "https://github.com/HermannBjorgvin/1942-Great-War",
   "dependencies": {
     "grunt": "^0.4.5",
@@ -23,6 +32,11 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-sass": "^1.1.0",
     "node-bourbon": "^4.2.3",
-    "node-neat": "^1.7.2"
+    "node-neat": "^1.7.2",
+    "three": "^0.73.0"
+  },
+  "chromium-args": "--child-clean-exit --enable-webgl --ignore-gpu-blacklist --disable-pinch",
+  "webkit": {
+    "plugin": true
   }
 }
